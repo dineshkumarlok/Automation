@@ -10,5 +10,9 @@ public class SeleniumTraining {
 		System.setProperty("webdriver.chrome.driver", "D://Dineshkumar//07_Personal//AutomationLearn//SelTraining//Resource//chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
+		//Navigating to WebPage
+		driver.navigate().to("https://www.google.co.in/");
+		driver.manage().window().maximize();
+		
 	}
 }
